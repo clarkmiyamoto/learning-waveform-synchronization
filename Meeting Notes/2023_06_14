@@ -1,0 +1,20 @@
+# Notes
+
+## How to tell who's listening to who?
+
+Example:
+Consider you're looking at player 3. Their NN are 2 and 4.
+We take Player number 3, and do correlation between the last half a second of 4 and 2.
+
+Methodology:
+1. We need to know the delay between them.
+    - Note the delay changes over the experimental by $d(t) = 1/30 t$ (every 30 seconds, increase delay by 1 sec)
+2. Determine coupling metrics $g$. Maximum number violins that they listen to.
+
+## What if that doesn't work?
+Prof. Fridman thinks we should use Deep Neural Networks for pitch classification
+
+# Next meeting.
+
+Try the statistical correlation. Next meeting date is in 2 weeks from now (Jun 28th ish)
+
